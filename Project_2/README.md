@@ -1,12 +1,12 @@
-#**Implementation**
-Question 1: Logistic Regression & Overfitting (15 points)
-Implementation:
+**Implementation** <br>
+**Part 1: Logistic Regression & Overfitting** <br>
+Implementation: <br>
 
-For this question, we plot the sigmoid function for three different values of the parameter w: 1, 5, and 100. Using Python and its libraries, particularly matplotlib, we generate the plots to visualize the behavior of the sigmoid function concerning varying values of w.
+For this question, we plot the sigmoid function for three different values of the parameter w: 1, 5, and 100. Using Python and its libraries, particularly matplotlib, we generate the plots to visualize the behavior of the sigmoid function concerning varying values of w. <br>
 Findings:
 
-    The plots clearly illustrate how the sigmoid function behaves differently for different values of w. As w increases, the sigmoid function becomes more prone to overfitting, leading to sharper transitions and potentially poor generalization to unseen data.
-    Regularization of the parameter w can indeed help address overfitting in logistic regression. We recommend using L2 regularization (ridge regression) to penalize large weights and promote smoother decision boundaries.
+- The plots clearly illustrate how the sigmoid function behaves differently for different values of w. As w increases, the sigmoid function becomes more prone to overfitting, leading to sharper transitions and potentially poor generalization to unseen data.
+- Regularization of the parameter w can indeed help address overfitting in logistic regression. We recommend using L2 regularization (ridge regression) to penalize large weights and promote smoother decision boundaries.
 
 Question 2: Ridge Regression (15 points)
 Implementation:
