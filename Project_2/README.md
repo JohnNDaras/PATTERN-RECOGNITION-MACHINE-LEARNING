@@ -8,7 +8,7 @@ Findings:
 - The plots clearly illustrate how the sigmoid function behaves differently for different values of w. As w increases, the sigmoid function becomes more prone to overfitting, leading to sharper transitions and potentially poor generalization to unseen data.
 - Regularization of the parameter w can indeed help address overfitting in logistic regression. We recommend using L2 regularization (ridge regression) to penalize large weights and promote smoother decision boundaries.
 
-**Question 2: Ridge Regression (15 points)**
+**Question 2: Ridge Regression** <br>
 Implementation:
 
 In this question, we express the optimization problem of ridge regression as a problem of minimizing Euclidean distances. We derive the solution step by step, showing the analytical process of obtaining the closed-form solution.
@@ -17,7 +17,7 @@ Findings:
 - By minimizing the Euclidean distance between the observed and predicted values, ridge regression effectively shrinks the coefficients towards zero, mitigating overfitting.
 - The solution to the ridge regression problem is unique when λ > 0 because the addition of the regularization term ensures a unique minimum exists.
 
-**Question 3: Face Recognition**
+**Question 3: Face Recognition** <br>
 Implementation:
 
 This question involves several tasks related to the Eigenfaces method for face recognition.
